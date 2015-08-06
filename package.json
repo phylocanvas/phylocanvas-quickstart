@@ -4,7 +4,7 @@
   "description": "PhyloCanvas with core plugins preloaded for convenience.",
   "main": "phylocanvas-quickstart.js",
   "scripts": {
-    "start": "webpack-dev-server --inline",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,7 +30,6 @@
     "cgps-style": "imperialcollegelondon/javascript#v0.1.1",
     "phylocanvas-plugin-ajax": "phylocanvas/phylocanvas-plugin-ajax",
     "phylocanvas-plugin-history": "phylocanvas/phylocanvas-plugin-history",
-    "webpack": "^1.10.5",
-    "webpack-dev-server": "^1.10.1"
+    "webpack": "^1.10.5"
   }
 }
