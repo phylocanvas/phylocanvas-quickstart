@@ -30,6 +30,7 @@
     "cgps-style": "imperialcollegelondon/javascript#v0.1.1",
     "phylocanvas-plugin-ajax": "phylocanvas/phylocanvas-plugin-ajax",
     "phylocanvas-plugin-history": "phylocanvas/phylocanvas-plugin-history",
+    "phylocanvas-plugin-metadata": "phylocanvas/phylocanvas-plugin-metadata",
     "webpack": "^1.10.5"
   }
 }
