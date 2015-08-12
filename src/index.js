@@ -1,3 +1,4 @@
+import 'PhyloCanvas/polyfill';
 import PhyloCanvas from 'PhyloCanvas';
 
 import historyPlugin from 'phylocanvas-plugin-history';
