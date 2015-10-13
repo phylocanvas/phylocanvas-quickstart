@@ -29,6 +29,7 @@
     "babel-loader": "^5.3.2",
     "cgps-style": "imperialcollegelondon/javascript#v0.1.1",
     "phylocanvas-plugin-ajax": "phylocanvas/phylocanvas-plugin-ajax",
+    "phylocanvas-plugin-context-menu": "phylocanvas/phylocanvas-plugin-context-menu",
     "phylocanvas-plugin-history": "phylocanvas/phylocanvas-plugin-history",
     "phylocanvas-plugin-metadata": "phylocanvas/phylocanvas-plugin-metadata",
     "webpack": "^1.10.5"
