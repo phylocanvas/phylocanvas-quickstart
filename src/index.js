@@ -1,14 +1,16 @@
-import 'PhyloCanvas/polyfill';
-import PhyloCanvas from 'PhyloCanvas';
+import 'phylocanvas/polyfill';
 
 import historyPlugin from 'phylocanvas-plugin-history';
 import ajaxPlugin from 'phylocanvas-plugin-ajax';
 import metadataPlugin from 'phylocanvas-plugin-metadata';
 import contextMenuPlugin from 'phylocanvas-plugin-context-menu';
 
-PhyloCanvas.plugin(historyPlugin);
-PhyloCanvas.plugin(ajaxPlugin);
-PhyloCanvas.plugin(metadataPlugin);
-PhyloCanvas.plugin(contextMenuPlugin);
+import phylocanvas from 'phylocanvas';
 
-export default PhyloCanvas;
+phylocanvas.plugin(historyPlugin);
+phylocanvas.plugin(ajaxPlugin);
+phylocanvas.plugin(metadataPlugin);
+phylocanvas.plugin(contextMenuPlugin);
+
+// commonjs to ensure default exports are available in global scope
+module.exports = phylocanvas;
