@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'phylocanvas-quickstart.js',
     library: 'PhyloCanvas',
-    // libraryTarget: 'umd',
+    libraryTarget: 'umd',
   },
   module: {
     loaders: [
