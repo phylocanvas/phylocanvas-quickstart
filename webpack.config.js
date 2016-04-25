@@ -1,28 +1,27 @@
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'phylocanvas-quickstart.js',
-    library: 'PhyloCanvas',
+    library: 'Phylocanvas',
     libraryTarget: 'umd',
   },
   module: {
     loaders: [
       { test: /\.js$/,
-        exclude: /(webpack|node_modules)/,
+        include: path.join(__dirname, 'src'),
         loader: 'babel',
         query: {
-          plugins: [
-            'transform-es2015-modules-umd',
-          ],
+          presets: [ 'es2015', 'stage-0' ],
         },
       },
     ],
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
-      compressor: {
+      compress: {
         warnings: false,
       },
     }),

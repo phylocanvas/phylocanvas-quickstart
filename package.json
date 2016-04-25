@@ -1,7 +1,7 @@
 {
   "name": "phylocanvas-quickstart",
   "version": "1.0.0",
-  "description": "PhyloCanvas with core plugins preloaded for convenience.",
+  "description": "Phylocanvas with core plugins preloaded for convenience.",
   "main": "phylocanvas-quickstart.js",
   "scripts": {
     "build": "webpack",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhyloCanvas/phylocanvas-quickstart.git"
+    "url": "git+https://github.com/phylocanvas/phylocanvas-quickstart.git"
   },
   "keywords": [
     "phylocanvas",
@@ -20,20 +20,20 @@
   "author": "The Centre for Genomic Pathogen Surveillance",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/PhyloCanvas/phylocanvas-quickstart/issues"
+    "url": "https://github.com/phylocanvas/phylocanvas-quickstart/issues"
   },
-  "homepage": "https://github.com/PhyloCanvas/phylocanvas-quickstart#readme",
+  "homepage": "https://github.com/phylocanvas/phylocanvas-quickstart#readme",
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",
     "babel-plugin-transform-es2015-modules-umd": "^6.3.13",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
-    "cgps-style": "imperialcollegelondon/javascript#v0.1.1",
-    "phylocanvas": "phylocanvas/phylocanvas#v2.2.0",
+    "eslint-config-cgps": "github:imperialcollegelondon/eslint-config-cgps",
+    "phylocanvas": "phylocanvas/phylocanvas#v2.3.0",
     "phylocanvas-plugin-ajax": "phylocanvas/phylocanvas-plugin-ajax",
-    "phylocanvas-plugin-context-menu": "phylocanvas/phylocanvas-plugin-context-menu#v3.5.0",
-    "phylocanvas-plugin-history": "phylocanvas/phylocanvas-plugin-history#v1.2.1",
+    "phylocanvas-plugin-context-menu": "phylocanvas/phylocanvas-plugin-context-menu#v3.6.0",
+    "phylocanvas-plugin-history": "phylocanvas/phylocanvas-plugin-history#v1.3.0",
     "phylocanvas-plugin-metadata": "phylocanvas/phylocanvas-plugin-metadata",
     "webpack": "^1.10.5"
   }

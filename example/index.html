@@ -13,14 +13,17 @@
   </style>
 </head>
 <body>
-  <h1>PhyloCanvas Quickstart</h1>
+  <h1>Phylocanvas Quickstart</h1>
   <div id="phylocanvas"></div>
   <script type="application/javascript" src="/phylocanvas-quickstart.js"></script>
   <script type="application/javascript">
-    var tree = PhyloCanvas.createTree('phylocanvas');
+    var tree = Phylocanvas.createTree('phylocanvas', {
+      alignLabels: true,
+      history: {
+        collapsed: false,
+      }
+    });
 
-    tree.showLabels = true;
-    tree.hoverLabel = true;
     tree.setTreeType('rectangular');
 
     tree.on('error', function (event) { throw event.error; });
@@ -29,7 +32,7 @@
       console.log('loaded');
       for (var i = 0; i <= 12; i++) {
         if (tree.leaves[i]) {
-          tree.leaves[i].data = { col: 1, x: 0, a: 1, c: 0 };
+          tree.leaves[i].data = { a: 1, b: 0, c: 1, d: 0 };
         }
       }
       tree.viewMetadataColumns();
