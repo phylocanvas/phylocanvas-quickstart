@@ -1,6 +1,6 @@
 {
   "name": "phylocanvas-quickstart",
-  "version": "1.0.0",
+  "version": "2.3.0",
   "description": "Phylocanvas with core plugins preloaded for convenience.",
   "main": "phylocanvas-quickstart.js",
   "scripts": {
