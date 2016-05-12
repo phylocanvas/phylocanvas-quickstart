@@ -1,2 +1,3 @@
-# phylocanvas-quickstart
-PhyloCanvas with core plugins preloaded for convenience.
+# Phylocanvas Quickstart
+
+Phylocanvas with core plugins and polyfill preloaded for convenience.
