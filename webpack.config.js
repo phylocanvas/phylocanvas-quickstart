@@ -8,6 +8,9 @@ module.exports = {
     library: 'Phylocanvas',
     libraryTarget: 'umd',
   },
+  resolve: {
+    root: path.resolve(__dirname, 'node_modules'),
+  },
   module: {
     loaders: [
       { test: /\.js$/,

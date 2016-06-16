@@ -22,6 +22,7 @@
   <script type="application/javascript">
     var tree = Phylocanvas.createTree('phylocanvas', {
       alignLabels: true,
+      history: false,
     });
 
     tree.setTreeType('rectangular');
@@ -33,7 +34,7 @@
       for (var i = 0; i <= 12; i++) {
         if (tree.leaves[i]) {
           tree.leaves[i].data = {
-            a: 'red', b: 'blue', c: 'green', d: 'yellow' };
+            a: 'red', b: 'blue', c: 'green' };
         }
       }
       tree.viewMetadataColumns();
