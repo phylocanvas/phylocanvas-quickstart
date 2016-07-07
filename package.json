@@ -32,11 +32,11 @@
     "babel-preset-stage-0": "^6.3.13",
     "eslint-config-cgps": "github:imperialcollegelondon/eslint-config-cgps",
     "live-server": "^1.0.0",
-    "phylocanvas": "^2.4.0",
+    "phylocanvas": "^2.5.0",
     "phylocanvas-plugin-ajax": "^1.0.0",
     "phylocanvas-plugin-context-menu": "^3.7.0",
     "phylocanvas-plugin-history": "^2.0.2",
-    "phylocanvas-plugin-metadata": "^1.1.0",
+    "phylocanvas-plugin-metadata": "^2.0.0",
     "webpack": "^1.10.5"
   }
 }

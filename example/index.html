@@ -22,22 +22,23 @@
   <script type="application/javascript">
     var tree = Phylocanvas.createTree('phylocanvas', {
       alignLabels: true,
-      history: false,
     });
 
     tree.setTreeType('rectangular');
 
     tree.on('error', function (event) { throw event.error; });
 
-    tree.on('loaded', function () {
-      console.log('loaded');
-      for (var i = 0; i <= 12; i++) {
+    tree.on('beforeFirstDraw', function () {
+      for (var i = 0; i <= tree.leaves.length; i++) {
         if (tree.leaves[i]) {
           tree.leaves[i].data = {
             a: 'red', b: 'blue', c: 'green' };
         }
       }
-      tree.viewMetadataColumns();
+    });
+
+    tree.on('loaded', function () {
+      console.log('loaded');
     });
 
     tree.load('small-tree.nwk');
