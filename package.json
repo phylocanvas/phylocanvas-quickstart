@@ -37,6 +37,7 @@
     "phylocanvas-plugin-context-menu": "^3.7.0",
     "phylocanvas-plugin-history": "^2.0.2",
     "phylocanvas-plugin-metadata": "^2.0.0",
+    "phylocanvas-plugin-scalebar": "^1.0.1",
     "webpack": "^1.10.5"
   }
 }
