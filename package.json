@@ -25,19 +25,24 @@
   },
   "homepage": "https://github.com/phylocanvas/phylocanvas-quickstart#readme",
   "devDependencies": {
-    "babel-core": "^6.3.21",
-    "babel-loader": "^6.2.0",
-    "babel-plugin-transform-es2015-modules-umd": "^6.3.13",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
     "eslint-config-cgps": "github:imperialcollegelondon/eslint-config-cgps",
     "live-server": "^1.0.0",
-    "phylocanvas": "^2.6.0",
+    "phylocanvas": "^2.6.1",
     "phylocanvas-plugin-ajax": "^1.0.0",
     "phylocanvas-plugin-context-menu": "^3.7.0",
     "phylocanvas-plugin-history": "^2.0.2",
-    "phylocanvas-plugin-metadata": "^2.0.0",
-    "phylocanvas-plugin-scalebar": "^1.0.1",
-    "webpack": "^1.10.5"
+    "phylocanvas-plugin-metadata": "^2.0.1",
+    "phylocanvas-plugin-scalebar": "^1.1.1",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "phylocanvas": "^2.6.1",
+    "phylocanvas-plugin-context-menu": "^3.8.0",
+    "phylocanvas-plugin-history": "^2.1.1"
   }
 }
